@@ -1,0 +1,23 @@
+{
+  "name": "kiota-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@microsoft/kiota-abstractions": "^1.0.0-preview.44",
+    "@microsoft/kiota-http-fetchlibrary": "^1.0.0-preview.43",
+    "@microsoft/kiota-serialization-form": "^1.0.0-preview.33",
+    "@microsoft/kiota-serialization-json": "^1.0.0-preview.44",
+    "@microsoft/kiota-serialization-multipart": "^1.0.0-preview.23",
+    "@microsoft/kiota-serialization-text": "^1.0.0-preview.41"
+  }
+}
